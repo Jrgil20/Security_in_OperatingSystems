@@ -82,3 +82,42 @@ rm: cannot remove '/': Operation not permitted
 ```
 
 En este ejemplo, el sistema operativo Linux, mediante el uso de permisos de usuario y herramientas de seguridad como SELinux, impide que un comando malicioso cause daño al sistema, demostrando la importancia de implementar y mantener medidas de seguridad efectivas en los sistemas operativos.
+
+### y si usamos SUDO?
+En la mayoría de los sistemas operativos modernos, ejecutar el comando `rm -rf /` con `sudo` puede resultar en la eliminación de archivos críticos del sistema, lo que puede hacer que el sistema sea inutilizable. Sin embargo, muchos sistemas operativos han implementado medidas de seguridad para prevenir que este comando se ejecute accidentalmente.
+
+#### Medidas de Seguridad en Sistemas Modernos
+
+1. **Protección contra eliminación de la raíz**:
+   - En algunas distribuciones de Linux, `rm` tiene protecciones integradas para evitar la eliminación de la raíz del sistema. Por ejemplo, en versiones recientes de GNU Coreutils, `rm` no permitirá eliminar `/` a menos que se utilice la opción `--no-preserve-root`.
+
+2. **Alias y configuraciones de shell**:
+   - Algunos sistemas configuran alias para `rm` para que siempre pregunte antes de eliminar archivos (`rm -i`). Sin embargo, esto puede ser anulado con `sudo`.
+
+3. **SELinux/AppArmor**:
+   - Sistemas con SELinux o AppArmor pueden tener políticas que previenen la eliminación de archivos críticos del sistema, incluso con `sudo`.
+
+4. **Permisos de archivos y directorios**:
+   - Algunos archivos y directorios críticos pueden tener permisos que impiden su eliminación, aunque esto no siempre es suficiente para proteger contra `sudo rm -rf /`.
+
+#### Ejemplo de Protección en GNU Coreutils
+
+```bash
+$ sudo rm -rf /
+rm: it is dangerous to operate recursively on '/'
+rm: use --no-preserve-root to override this failsafe
+```
+
+#### Recomendación
+
+**Nunca intentes ejecutar `sudo rm -rf /` en un sistema de producción o en cualquier sistema que contenga datos importantes.** Las medidas de seguridad pueden no ser suficientes para prevenir daños graves al sistema.
+
+#### Alternativa Segura
+
+Si necesitas limpiar directorios específicos, asegúrate de especificar la ruta correcta y verifica dos veces antes de ejecutar comandos destructivos. Por ejemplo:
+
+```bash
+sudo rm -rf /path/to/directory
+```
+
+Siempre es una buena práctica hacer copias de seguridad de los datos importantes antes de ejecutar comandos que puedan resultar en la pérdida de datos.
