@@ -1,0 +1,9 @@
+Créditos por su investigación a:
+
+Gabriel Castellano - Tema 1: Objetivos, principios y dominio de la protección
+Andres Guilarte - Tema 2: Control de acceso y protección Basada en lenguaje
+Ainhoa Hurtado - Tema 3: El problema de la seguridad
+Masiel Peresozo - Tema 4: Amenazas internas y externas
+Jesus Gil - Tema 5: Implementación de Defensas deSeguridad en sistemas operativos
+
+y como siempre a GitHub Copilot por la corrección ortográfica y redacción.
