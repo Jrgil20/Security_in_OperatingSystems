@@ -57,4 +57,4 @@ Es importante diferenciar entre la seguridad en sistemas operativos y la ciberse
 
 ## Créditos
 
-Para ver los créditos y agradecimientos a las personas que contribuyeron a este documento, consulte el archivo de [Créditos](./Credits.txt).
+Para ver los créditos y agradecimientos a las personas que contribuyeron a este documento, consulte el archivo de [Créditos](./CREDITS).
