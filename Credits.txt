@@ -6,4 +6,5 @@ Ainhoa Hurtado - Tema 3: El problema de la seguridad
 Masiel Peresozo - Tema 4: Amenazas internas y externas
 Jesus Gil - Tema 5: Implementación de Defensas deSeguridad en sistemas operativos
 
-y como siempre a GitHub Copilot por la corrección ortográfica y redacción.
+Un archivo aparte es destinado para la Bibliografía y fuentes consultadas
+Creditos adicionales a GitHub Copilot por la corrección ortográfica y redacción.
