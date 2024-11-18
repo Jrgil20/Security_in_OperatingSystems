@@ -63,18 +63,28 @@ timeline
 
 ### Integridad
 Asegurar que los datos y recursos del sistema no sean alterados de manera no autorizada. Esto implica proteger los datos contra modificaciones maliciosas o accidentales.
+**Ejemplo:** 
+- **Sistema de Archivos:** Un sistema de archivos que utiliza sumas de verificación (checksums) para verificar la integridad de los archivos. Si un archivo es modificado, la suma de verificación cambiará, indicando una posible alteración no autorizada.
+- **Base de Datos:** Una base de datos que implementa transacciones ACID (Atomicidad, Consistencia, Aislamiento, Durabilidad) para asegurar que las operaciones se completen de manera íntegra y consistente.
 
 ### Confidencialidad
 Garantizar que la información solo sea accesible a aquellos usuarios o procesos que tienen el permiso adecuado. Esto incluye el uso de técnicas de cifrado y control de acceso.
+**Ejemplo :**
+- **Cifrado de Datos:** Un sistema de almacenamiento en la nube que cifra todos los datos almacenados utilizando claves de cifrado. Solo los usuarios con las claves adecuadas pueden descifrar y acceder a los datos.
+- **Control de Acceso:** Un sistema de gestión de identidades y accesos (IAM) que asegura que solo los empleados autorizados puedan acceder a información sensible de la empresa.
 
 ### Disponibilidad
 Asegurar que los recursos del sistema estén disponibles para los usuarios y procesos autorizados cuando los necesiten. Esto implica proteger el sistema contra ataques de denegación de servicio (DoS).
+**Ejemplo :**
+- **Balanceo de Carga:** Un sitio web que utiliza balanceadores de carga para distribuir el tráfico entre múltiples servidores, asegurando que el sitio permanezca accesible incluso si uno de los servidores falla.
+- **Redundancia:** Un centro de datos que implementa redundancia en sus sistemas de energía y red para asegurar que los servicios permanezcan disponibles en caso de fallos.
 
 ## Principios de la Protección
 
 ### Principio del Menor Privilegio
 **Descripción:** Los usuarios y procesos deben tener solo los privilegios necesarios para realizar sus tareas. Esto minimiza el riesgo de daños en caso de que un usuario o proceso sea comprometido.  
-**Ejemplo:** Solo damos las llaves a las personas de confianza y les permitimos acceder solo a las habitaciones que necesitan. Por ejemplo, el jardinero solo tiene acceso al jardín, no a toda la casa.
+- **Permisos de Archivo:** Un usuario de un sistema operativo tiene permisos de lectura en ciertos archivos de configuración, pero no tiene permisos de escritura para evitar modificaciones accidentales o maliciosas.
+- **Ejemplo practico:** Solo damos las llaves a las personas de confianza y les permitimos acceder solo a las habitaciones que necesitan. Por ejemplo, el jardinero solo tiene acceso al jardín, no a toda la casa.
 
 ### Defensa en Profundidad
 **Descripción:** Implementar múltiples capas de seguridad para proteger los recursos del sistema. Si una capa falla, las otras capas aún pueden proporcionar protección.  
