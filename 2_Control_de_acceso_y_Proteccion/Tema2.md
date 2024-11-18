@@ -101,7 +101,7 @@ Rust se centra en la seguridad de la memoria y la concurrencia, utilizando un si
 
 ## Ejemplo de Implementación de Proteccion basada en Java
 
-    ```java
+```java
     import java.io.BufferedReader;
     import java.io.FileReader;
     import java.io.IOException;
@@ -139,7 +139,7 @@ Rust se centra en la seguridad de la memoria y la concurrencia, utilizando un si
             }
         }
     }
-    ```
+```
 
 ### Explicación del Programa Java
 
