@@ -6,6 +6,10 @@
 ## [Tema 4: Amenazas Internas y Externas](./4_Amenazas/Tema4.md)
 ## [Tema 5: Implementación de Defensas de Seguridad](./5_Implementacion/Tema5.md)
 
+## Bibliografía
+
+Para obtener más información y consultar las fuentes utilizadas en este documento, puede revisar el archivo de [Bibliografía](./Bibliografia.md).
+
 ## ¿Qué es la seguridad en sistemas operativos?
 
 La seguridad en sistemas operativos se refiere a las medidas y controles implementados para proteger los recursos del sistema, como la memoria, los archivos, los dispositivos y la red, contra accesos no autorizados, modificaciones, destrucción o interferencias. Esto incluye la autenticación de usuarios, la autorización de acceso, la auditoría de actividades y la implementación de políticas de seguridad para garantizar la integridad, confidencialidad y disponibilidad de los datos y servicios del sistema.
@@ -44,3 +48,13 @@ Aunque la seguridad en sistemas operativos y la ciberseguridad están estrechame
 
 En resumen, mientras que la seguridad en sistemas operativos se centra en proteger el propio sistema operativo y sus recursos, la ciberseguridad abarca una protección más amplia de todos los sistemas y datos dentro de una organización contra amenazas cibernéticas.
 En resumen, mientras que la seguridad en sistemas operativos se centra en proteger el propio sistema operativo y sus recursos, la ciberseguridad abarca una protección más amplia de todos los sistemas y datos dentro de una organización contra amenazas cibernéticas.sV
+
+## Conclusiones
+
+La seguridad en sistemas operativos es un aspecto fundamental para proteger los recursos y servicios de un sistema contra accesos no autorizados, modificaciones maliciosas y otros riesgos de seguridad. Al implementar medidas de seguridad adecuadas, como la autenticación de usuarios, la autorización de accesos, la auditoría de actividades y la implementación de políticas de seguridad, se puede garantizar la integridad, confidencialidad y disponibilidad de los datos y servicios del sistema operativo.
+
+Es importante diferenciar entre la seguridad en sistemas operativos y la ciberseguridad, ya que aunque están relacionadas, tienen alcances y objetivos diferentes. Mientras que la seguridad en sistemas operativos se enfoca en proteger los recursos y servicios del propio sistema operativo, la ciberseguridad abarca la protección de todos los sistemas informáticos y redes contra amenazas cibernéticas.
+
+## Créditos
+
+Para ver los créditos y agradecimientos a las personas que contribuyeron a este documento, consulte el archivo de [Créditos](./Credits.txt).
