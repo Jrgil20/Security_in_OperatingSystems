@@ -8,7 +8,7 @@ El control de acceso se refiere a la capacidad de restringir el acceso a recurso
 
 - **Control de Acceso Discrecional (DAC)**: Los propietarios de los recursos determinan quién puede acceder a ellos.
 - **Control de Acceso Obligatorio (MAC)**: El acceso a los recursos está controlado por políticas de seguridad centralizadas. Como podremos ver en el siguiente enlace, Linux tiene un sistema de control de acceso obligatorio llamado Landlock: [Landlock en Linux](https://github.com/torvalds/linux/blob/adc218676eef25575469234709c2d87185ca223a/Documentation/security/landlock.rst#file-descriptor-access-rights)
-- **Control de Acceso Basado en Roles (RBAC)**: El acceso se otorga en función de los roles asignados a los usuarios.
+- **Control de Acceso Basado en Roles (RBAC)**: El acceso se otorga en función de los roles asignados a los usuarios. ( el de java)
 
 ## Protección Basada en Lenguaje
 La protección basada en lenguaje utiliza características del lenguaje de programación para implementar mecanismos de seguridad. Algunos enfoques incluyen:
