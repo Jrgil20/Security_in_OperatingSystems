@@ -121,3 +121,15 @@ sudo rm -rf /path/to/directory
 ```
 
 Siempre es una buena práctica hacer copias de seguridad de los datos importantes antes de ejecutar comandos que puedan resultar en la pérdida de datos.
+
+### crowdstrike el ejemplo perfecto 
+una vulnerabilidad que se arreglo relativamente rapido causo mucho daño
+
+por que causo tanto daño?
+https://www.xataka.com/servicios/algo-falla-austin-texas-senor-no-puede-salir-parking-aena-girona-crowdstrike-vulnerabilidad-global
+
+https://cnnespanol.cnn.com/2024/07/19/que-paso-caida-mundial-microsoft-crowdstrike-trax
+
+Que paso?
+
+https://www.clarin.com/tecnologia/crowdstrike-revelan-causa-error-provoco-caida-mundial-microsoft_0_gFYlmuIC3Y.html
